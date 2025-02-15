@@ -1,0 +1,5 @@
+import os 
+total = 0 
+for i in os.scandir(" C:/Users/nn194/jk/B"): 
+    total +=os.path.getsize(i.path)
+print(total)
